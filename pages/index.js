@@ -82,7 +82,7 @@ export default function Home() {
       <Head>
         <title>OpenAI Chat</title>
       </Head>
-      <h1 className={styles.heading1}>OpenAI Chat Completion Quickstart</h1>
+      <h1 className={styles.heading1}>Agritech AI Chat</h1>
       <div className={styles.chatContainer} ref={chatContainerRef}>
         {chatHistory.map((msg, index) => (
           <div
