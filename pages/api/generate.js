@@ -34,7 +34,7 @@ export default async function handler(req, res) {
         res.setHeader("Connection", "keep-alive");
 
         try {
-          const stream = await openai.beta.chat.completions.stream({
+          const stream = await openai.chat.completions.stream({
             model: "gpt-3.5-turbo",
             messages: chatHistory,
             stream: true,
