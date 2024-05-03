@@ -80,7 +80,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>OpenAI Chat</title>
+        <title>Agritech AI Chat</title>
       </Head>
       <h1 className={styles.heading1}>Agritech AI Chat</h1>
       <div className={styles.chatContainer} ref={chatContainerRef}>
